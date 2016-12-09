@@ -1,10 +1,12 @@
+This project is no longer maintained. For a fully-functional, maintained CLI tool look at http://narkoz.github.io/gitlab/
+
 # _GitLab CLI Tool_
 
 _Many people prefer to work from the CLI when possible. This tool aims to bring some of the GitLab functionality into the CLI to avoid repeated trips to the web UI._
 
 ## NOTE ##
 
-This may not work with GitLab 6.x+. This project is no longer maintained. For a fully-functional, maintained CLI tool look at http://narkoz.github.io/gitlab/
+This may not work with GitLab 6.x. Development is ongoing and a new version will be posted shortly. What's more, the new version will be drastically refactored and will be backed by rspec tests. This will ensure that future versions can be released quicker and with confidence. Thanks for your patience.
 
 ## Current version is 2.0.0. 
 
@@ -47,13 +49,13 @@ _How do I get started?_
 
 Install from rubygems (Recommended)
 
-1. _`gem install gitlab_cli`_
+1. `gem install gitlab_cli`
 
 Install from the repo (requires rake and bundler).
 
-1. _Clone the repo._
-2. _`rake build`_
-3. _`rake install` (Requires root privileges)._
+1. Clone the repo.
+2. `rake build`
+3. `rake install` (Requires root privileges).
 
 You now have access to the `gitlab` command.
 
@@ -73,11 +75,11 @@ _Required system packages_
 
 _How can I find the private token for my user?_
 
-Login to your GitLab web UI, go to 'My Profile', and select the 'Account' tab.  Copy the private token from the box and paste into your config, which should be located at `~/.gitlab.yml`.  
+Login to your GitLab web UI, go to 'My Profile', and select the 'Account' tab.  Copy the private token from the box and paste into your config.  
 
 _How can I add the repo bin path to my environment PATH variable?_
 
-Place it in your ~/.bash_profile file.  You should end up with something like this:
+Place it in your ~/.bash_profile file.  You should end up with something like this:  
 `export PATH=$PATH:/path/to/gitlab-cli/repo/bin/`
 
 ## How to use (Commands) 
@@ -96,8 +98,8 @@ Now that Gitlab CLI is distributed as a gem it is increasingly easy to use in yo
 
 If you encounter issues with this project, please find help via one of these avenues.
 
-1. _IRC: #gitlab on Freenode - nick dblessing_
-2. _GitHub Issues: Open a new issue here on GitHub_
+1. IRC: #gitlab on Freenode - nick dblessing
+2. GitHub Issues: Open a new issue here on GitHub
 
 ## Contributing changes
 
